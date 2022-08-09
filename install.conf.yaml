@@ -13,10 +13,8 @@
    - ~/Work
 
 - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
-   - echo "hey you guys"
-#   - sleep 5
    - 
-     command: ./test.zsh
+     command: ./setup_homebrew.zsh
+     stdin: true
      stdout: true
      stderr: true

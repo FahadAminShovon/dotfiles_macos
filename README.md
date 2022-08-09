@@ -11,3 +11,4 @@ dotfiles configuration for mac os
 - Finder Show Path Bar
 - .zshrc
 - Git (config and SSH)
+- Homebrew installation

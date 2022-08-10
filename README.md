@@ -11,3 +11,4 @@ dotfiles configuration for mac os
 - Finder Show Path Bar
 - Git (config and SSH)
 - Alfred (turn off Spotlight hotkey and use for Alfred)
+- Snappy (turn off cmd+shift+4 for screenshots and use for Snappy) 

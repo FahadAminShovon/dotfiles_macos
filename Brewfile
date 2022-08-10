@@ -1,4 +1,5 @@
 # Taps
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -9,6 +10,7 @@ brew "httpie"
 brew "exa"
 brew "git"
 brew "mas"
+brew "eth-p/software/bat-extras"
 
 # Casks (Applications)
 cask "alfred"

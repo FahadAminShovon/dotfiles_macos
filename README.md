@@ -10,3 +10,4 @@ dotfiles configuration for mac os
 - Mission Control Preferences (don't rearrange spaces)
 - Finder Show Path Bar
 - Git (config and SSH)
+- Alfred (turn off Spotlight hotkey and use for Alfred)

@@ -7,6 +7,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
 alias ls='exa -laFh --git --icons'
+alias lt='exa -lFH --git --icons --tree --level=2'
 alias exa='exa -laFh --git --icons'
 alias cat='bat'
 

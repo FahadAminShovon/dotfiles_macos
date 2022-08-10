@@ -9,6 +9,4 @@ dotfiles configuration for mac os
 - Dock Preferences
 - Mission Control Preferences (don't rearrange spaces)
 - Finder Show Path Bar
-- .zshrc
 - Git (config and SSH)
-- Homebrew installation

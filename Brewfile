@@ -8,6 +8,7 @@ brew "bat"
 brew "httpie"
 brew "exa"
 brew "git"
+brew "mas"
 
 # Casks (Applications)
 cask "alfred"

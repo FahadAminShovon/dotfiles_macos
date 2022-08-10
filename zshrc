@@ -6,7 +6,8 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
-alias ls='ls -lAFh'
+alias ls='exa -laFh --git --icons'
+alias exa='exa -laFh --git --icons'
 alias cat='bat'
 
 # Create Aliases

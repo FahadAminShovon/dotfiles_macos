@@ -10,7 +10,7 @@
     ~/.zprofile:
 
 - create:
-   - ~/Work
+   - ~/Workspace
 
 - shell:
    - 

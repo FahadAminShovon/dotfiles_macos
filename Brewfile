@@ -12,6 +12,7 @@ brew "exa"
 brew "git"
 brew "less"
 brew "mas"
+brew "zsh"
 brew "eth-p/software/bat-extras"
 
 # Casks (Applications)

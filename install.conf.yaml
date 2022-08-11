@@ -8,6 +8,9 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.zprofile:
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
 - create:
    - ~/Workspace

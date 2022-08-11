@@ -15,6 +15,7 @@ alias cat='bat'
 alias man='batman'
 alias grep='batgrep'
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customize Prompts
 PROMPT='

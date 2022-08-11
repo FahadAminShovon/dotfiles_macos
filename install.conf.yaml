@@ -18,3 +18,7 @@
      stdin: true
      stdout: true
      stderr: true
+# Copy fonts
+   - 
+     command: cp -a fonts/. ~/Library/Fonts/
+     stderr: true

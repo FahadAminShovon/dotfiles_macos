@@ -2,6 +2,7 @@
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
 # Brews (Packages)
@@ -15,6 +16,7 @@ brew "eth-p/software/bat-extras"
 # Casks (Applications)
 cask "alfred"
 cask "dropbox"
+cask "font-cascadia-code"
 cask "gitkraken"
 cask "google-chrome"
 cask "visual-studio-code"

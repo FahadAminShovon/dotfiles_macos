@@ -9,6 +9,7 @@ else
   n lts
 fi
 
+npm install --global yarn
 npm install --global typescript
 npm install --global trash-cli
 

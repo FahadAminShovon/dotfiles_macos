@@ -16,13 +16,15 @@
 - create:
    - ~/Workspace
 
-- shell:
-   - 
-     command: ./setup_homebrew.zsh
-     stdin: true
-     stdout: true
-     stderr: true
+- shell: 
+    - command: ./setup_homebrew.zsh
+      stdin: true
+      stdout: true
+      stderr: true
+    - command: ./setup_zsh.zsh
+      stdin: true
+      stdout: true
+      stderr: true
 # Copy fonts
-   - 
-     command: cp -a fonts/. ~/Library/Fonts/
-     stderr: true
+    - command: cp -a fonts/. ~/Library/Fonts/
+      stderr: true

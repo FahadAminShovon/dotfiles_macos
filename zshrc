@@ -6,14 +6,15 @@ echo 'Hello from .zshrc'
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
+
+# Create Aliases
 alias ls='exa -laFh --git --icons'
 alias lt='exa -lFH --git --icons --tree --level=2'
 alias exa='exa -laFh --git --icons'
 alias cat='bat'
 alias man='batman'
 alias grep='batgrep'
-
-# Create Aliases
+alias bbd='brew bundle dump --force --describe'
 
 # Customize Prompts
 PROMPT='

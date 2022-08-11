@@ -10,6 +10,7 @@ brew "bat"
 brew "httpie"
 brew "exa"
 brew "git"
+brew "less"
 brew "mas"
 brew "eth-p/software/bat-extras"
 

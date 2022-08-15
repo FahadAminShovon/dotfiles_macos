@@ -12,11 +12,14 @@
     ~/.config/bat:
       create: true
       path: config/bat
+    ~/.config/kitty:
+      create: true
+      path: config/kitty
 
 - create:
-   - ~/Workspace
+    - ~/Workspace
 
-- shell: 
+- shell:
     - command: ./setup_homebrew.zsh
       stdin: true
       stdout: true
@@ -29,6 +32,6 @@
       stdin: true
       stdout: true
       stderr: true
-# Copy fonts
+    # Copy fonts
     - command: cp -a fonts/. ~/Library/Fonts/
       stderr: true

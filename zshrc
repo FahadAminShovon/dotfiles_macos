@@ -9,9 +9,10 @@ export N_PREFIX="$HOME/.n"
 # Change ZSH Options
 
 # Create Aliases
-alias ls='exa -laFh --git --icons'
+alias ls='exa -lFh --git --icons'
+alias la='exa -lFah --git --icons'
 alias lt='exa -lFH --git --icons --tree --level=2'
-alias exa='exa -laFh --git --icons'
+alias exa='exa -lFh --git --icons'
 alias cat='bat'
 alias man='batman'
 alias grep='batgrep'

@@ -15,6 +15,6 @@ fi
 npm install --global yarn
 npm install --global typescript
 npm install --global trash-cli
-
+npm install --global expo-cli
 echo "Global NPM Packages Installed:"
 npm list --global --depth=0

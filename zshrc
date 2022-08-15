@@ -47,12 +47,6 @@ function mkcd(){
 # ... and other surprises
 
 # loading plugins
-source $ZSH_PATH/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $ZSH_PATH/z/z.sh
-source $ZSH_PATH/powerlevel10k/powerlevel10k.zsh-theme
-source $HOME/.dotfiles/zsh-vi-mode-config.zsh
-
+source $HOME/.dotfiles/zsh-plugins.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-source $ZSH_PATH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

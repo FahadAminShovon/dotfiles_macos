@@ -1,31 +1,45 @@
-# Taps
 tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
-
-# Brews (Packages)
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-brew "httpie"
+# Modern replacement for 'ls'
 brew "exa"
+# Distributed revision control system
 brew "git"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Pager program similar to more
 brew "less"
+# Mac App Store command-line interface
 brew "mas"
+# Node version management
 brew "n"
+# UNIX shell (command interpreter)
 brew "zsh"
+# Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
-
-# Casks (Applications)
+# Application launcher and productivity software
 cask "alfred"
+# Client for the Dropbox cloud storage service
 cask "dropbox"
+# Monospaced font that includes programming ligatures
 cask "font-cascadia-code"
+# Git client focusing on productivity
 cask "gitkraken"
+# Web browser
 cask "google-chrome"
+# GPU-based terminal emulator
+cask "kitty"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+# Open-source code editor
 cask "visual-studio-code"
-
-# MAS
-mas "Bandwidth+", id: 490461369
-mas "Snappy", id: 512617038
-mas "Slack", id: 803453959
+# Multimedia player
+cask "vlc"
 mas "Amphetamine", id: 937984704
+mas "Bandwidth+", id: 490461369
+mas "Slack", id: 803453959
+mas "Snappy", id: 512617038

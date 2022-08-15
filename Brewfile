@@ -17,8 +17,6 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
-# UNIX shell (command interpreter)
-brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
@@ -41,7 +39,3 @@ cask "visual-studio-code"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Amphetamine", id: 937984704
-mas "Bandwidth+", id: 490461369
-mas "Slack", id: 803453959
-mas "Snappy", id: 512617038

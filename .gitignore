@@ -3,3 +3,4 @@ BrewFile.lock.json
 plugged
 node_modules
 yarn.lock
+kitty.conf.bak

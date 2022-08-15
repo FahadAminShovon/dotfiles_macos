@@ -9,6 +9,7 @@
     ~/.zshenv:
     ~/.gitconfig:
     ~/.zprofile:
+    ~/.p10k.zsh: p10k.zsh
     ~/.config/bat:
       create: true
       path: config/bat
@@ -18,6 +19,7 @@
 
 - create:
     - ~/Workspace
+    - ~/.config/zsh
 
 - shell:
     - command: ./setup_homebrew.zsh

@@ -13,6 +13,7 @@ fi
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
+export ZSH_PATH="$HOME/.config/zsh"
 # Change ZSH Options
 
 # Create Aliases
@@ -47,10 +48,11 @@ function mkcd(){
 
 # loading plugins
 source $ZSH_PATH/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $ZSH_PATH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH_PATH/z/z.sh
 source $ZSH_PATH/powerlevel10k/powerlevel10k.zsh-theme
 source $HOME/.dotfiles/zsh-vi-mode-config.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+source $ZSH_PATH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

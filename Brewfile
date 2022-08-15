@@ -39,6 +39,8 @@ cask "qbittorrent"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
+# Video communication and virtual meeting platform
+cask "zoom"
 mas "Amphetamine", id: 937984704
 mas "Bandwidth+", id: 490461369
 mas "Slack", id: 803453959

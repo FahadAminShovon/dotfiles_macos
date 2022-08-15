@@ -1,3 +1,5 @@
 BrewFile.lock.json
 .nvimlog
 plugged
+node_modules
+yarn.lock

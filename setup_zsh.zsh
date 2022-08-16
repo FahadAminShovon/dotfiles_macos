@@ -27,8 +27,18 @@ echo "\n <<< Starting ZSH Setup >>> \n"
 
 
 # zsh plugins
-git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_PATH/zsh-vi-mode
-git clone https://github.com/romkatv/powerlevel10k $ZSH_PATH/powerlevel10k
-git clone https://github.com/rupa/z $ZSH_PATH/z
-git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_PATH/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting $ZSH_PATH/zsh-syntax-highlighting
+function ZSH_PLUGIN_ADD(){
+	split_str=(${(@s:/:)1})
+	zsh_plugin_dir="$ZSH_PATH/${split_str[-1]}"
+	if [ -d "$zsh_plugin_dir" ]; then
+		echo "${zsh_plugin_dir} already exists..."
+	else
+		git clone $1 $zsh_plugin_dir
+	fi
+}
+
+ZSH_PLUGIN_ADD "https://github.com/jeffreytse/zsh-vi-mode"
+ZSH_PLUGIN_ADD "https://github.com/romkatv/powerlevel10k"
+ZSH_PLUGIN_ADD "https://github.com/rupa/z"
+ZSH_PLUGIN_ADD "https://github.com/zsh-users/zsh-autosuggestions"
+ZSH_PLUGIN_ADD "https://github.com/zsh-users/zsh-syntax-highlighting"

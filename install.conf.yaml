@@ -9,13 +9,13 @@
     ~/.zshenv:
     ~/.gitconfig:
     ~/.zprofile:
-    ~/.p10k.zsh: p10k.zsh
     ~/.config/bat:
       create: true
       path: config/bat
     ~/.config/kitty:
       create: true
       path: config/kitty
+    ~/.config/starship.toml: starship.toml
 
 - create:
     - ~/Workspace

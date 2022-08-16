@@ -29,7 +29,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 
 [time]
 time_format = "%T"
-format = "🕙 $time($style) "
+format = " $time($style) 🕙"
 style = "bright-white"
 disabled = false
 

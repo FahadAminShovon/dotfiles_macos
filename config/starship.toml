@@ -4,7 +4,7 @@
 # Inserts a blank line between shell prompts
 add_newline = false
 continuation_prompt = "▶▶"
-right_format = """$time"""
+right_format = """$nodejs $shlvl $time"""
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character] # The name of the module we are configuring is "character"
@@ -29,7 +29,7 @@ format = "[$path]($style)[$lock_symbol]($lock_style) "
 
 [time]
 time_format = "%T"
-format = " $time($style) 🕙"
+format = "$time($style) 🕙"
 style = "bright-white"
 disabled = false
 
@@ -76,3 +76,12 @@ format = "<[$hostname]($style)>"
 trim_at = "-"
 style = "bold dimmed white"
 disabled = true
+
+[nodejs]
+format = "[$symbol($version)]($style)"
+detect_extensions	= ["js", "mjs", "cjs", "ts", "mts", "cts", "jsx", "ts", "tsx"]
+
+[shlvl]
+disabled = false
+format = "[$symbol$shlvl]($style) "
+style = "bold yellow"

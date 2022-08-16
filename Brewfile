@@ -27,6 +27,7 @@ cask "alfred"
 cask "dropbox"
 # Monospaced font that includes programming ligatures
 cask "font-cascadia-code"
+cask "font-fira-code-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
@@ -41,8 +42,7 @@ cask "visual-studio-code"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
-
-mas "Bandwidth+", id: 490461369
-mas "Snappy", id: 512617038
-mas "Slack", id: 803453959
 mas "Amphetamine", id: 937984704
+mas "Bandwidth+", id: 490461369
+mas "Slack", id: 803453959
+mas "Snappy", id: 512617038

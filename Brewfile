@@ -17,6 +17,8 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software

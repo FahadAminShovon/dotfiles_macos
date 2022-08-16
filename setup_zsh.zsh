@@ -26,8 +26,6 @@ echo "\n <<< Starting ZSH Setup >>> \n"
 # fi
 
 
-defaults write -g ApplePressAndHoldEnabled -bool false 
-
 # zsh plugins
 git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_PATH/zsh-vi-mode
 git clone https://github.com/romkatv/powerlevel10k $ZSH_PATH/powerlevel10k

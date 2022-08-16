@@ -38,7 +38,6 @@ function ZSH_PLUGIN_ADD(){
 }
 
 ZSH_PLUGIN_ADD "https://github.com/jeffreytse/zsh-vi-mode"
-ZSH_PLUGIN_ADD "https://github.com/romkatv/powerlevel10k"
 ZSH_PLUGIN_ADD "https://github.com/rupa/z"
 ZSH_PLUGIN_ADD "https://github.com/zsh-users/zsh-autosuggestions"
 ZSH_PLUGIN_ADD "https://github.com/zsh-users/zsh-syntax-highlighting"

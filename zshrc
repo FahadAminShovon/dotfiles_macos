@@ -19,7 +19,14 @@ alias man='batman'
 alias grep='batgrep'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
-alias rm=trash
+alias rm='trash -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias mkdir='mkdir -p'
+alias h='history'
+alias which='type -a'
+alias ..='cd ..'
+alias ...='cd ../..'
 
 
 # Add locations to $PATH Array

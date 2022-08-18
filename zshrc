@@ -26,6 +26,8 @@ alias mkdir='mkdir -p'
 alias h='history'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias vi='nvim'
+alias vim='nvim'
 
 
 # Add locations to $PATH Array

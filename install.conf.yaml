@@ -15,6 +15,9 @@
     ~/.config/kitty:
       create: true
       path: config/kitty
+    ~/.config/nvim:
+      create: true
+      path: config/nvim
     ~/.config/starship.toml: config/starship.toml
 
 - create:

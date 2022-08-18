@@ -4,3 +4,4 @@ plugged
 node_modules
 yarn.lock
 kitty.conf.bak
+config/nvim/plugin

@@ -17,6 +17,8 @@ brew "less"
 brew "mas"
 # Node version management
 brew "n"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Bash scripts that integrate bat with various command-line tools
@@ -42,6 +44,8 @@ cask "visual-studio-code"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
+
+# Mas files
 mas "Amphetamine", id: 937984704
 mas "Bandwidth+", id: 490461369
 mas "Slack", id: 803453959

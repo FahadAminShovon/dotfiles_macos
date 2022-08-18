@@ -24,7 +24,6 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
 alias h='history'
-alias which='type -a'
 alias ..='cd ..'
 alias ...='cd ../..'
 

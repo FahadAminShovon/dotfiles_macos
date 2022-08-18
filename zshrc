@@ -7,6 +7,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
 export ZSH_PATH="$HOME/.config/zsh"
+export EDITOR="nvim"
 # Change ZSH Options
 
 # Create Aliases

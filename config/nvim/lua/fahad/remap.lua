@@ -6,3 +6,4 @@ local xnoremap = Remap.xnoremap
 local nmap = Remap.nmap
 
 inoremap('jj', "<Esc>")
+nmap("<C-1>", ":NERDTreeToggle<CR>")

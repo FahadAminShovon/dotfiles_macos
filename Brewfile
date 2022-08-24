@@ -25,6 +25,8 @@ brew "starship"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
+# Tools for building Android applications
+# cask "android-studio"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Monospaced font that includes programming ligatures
@@ -50,3 +52,4 @@ mas "Amphetamine", id: 937984704
 mas "Bandwidth+", id: 490461369
 mas "Slack", id: 803453959
 mas "Snappy", id: 512617038
+# mas "Xcode", id: 497799835

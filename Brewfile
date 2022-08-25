@@ -26,7 +26,9 @@ brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
 # Tools for building Android applications
-# cask "android-studio"
+cask "android-studio"
+# Voice and text chat software
+cask "discord"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Monospaced font that includes programming ligatures
@@ -40,6 +42,8 @@ cask "google-chrome"
 cask "kitty"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
+# Music streaming service
+cask "spotify"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player

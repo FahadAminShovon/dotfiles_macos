@@ -8,6 +8,8 @@ export NULLCMD=bat
 export N_PREFIX="$HOME/.n"
 export ZSH_PATH="$HOME/.config/zsh"
 export EDITOR="nvim"
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+
 # Change ZSH Options
 
 # Create Aliases
@@ -37,6 +39,8 @@ path=(
   "$N_PREFIX/bin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+	"$ANDROID_SDK_ROOT/emulator"
+	"$ANDROID_SDK_ROOT/platform-tools"
 )
 
 # Write handy functions

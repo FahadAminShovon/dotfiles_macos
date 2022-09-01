@@ -39,6 +39,7 @@ cask "dropbox"
 # Monospaced font that includes programming ligatures
 cask "font-cascadia-code"
 cask "font-fira-code-nerd-font"
+cask "font-fira-mono-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser

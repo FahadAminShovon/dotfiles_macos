@@ -22,6 +22,8 @@ brew "mas"
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Development kit for the Java programming language
+brew "openjdk@11"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Watch files and take action when they change

@@ -18,10 +18,16 @@ brew "httpie"
 brew "less"
 # Mac App Store command-line interface
 brew "mas"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
 # Node version management
 brew "n"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx"
+# Platform built on V8 to build network applications
+brew "node"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Cross-shell prompt for astronauts
@@ -40,6 +46,7 @@ cask "discord"
 cask "dropbox"
 # Monospaced font that includes programming ligatures
 cask "font-cascadia-code"
+# Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
 cask "font-fira-mono-nerd-font"
 # Git client focusing on productivity
@@ -69,3 +76,4 @@ mas "Bandwidth+", id: 490461369
 mas "Slack", id: 803453959
 mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835
+

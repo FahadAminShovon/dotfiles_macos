@@ -39,13 +39,13 @@ path=(
   "$N_PREFIX/bin"
   $path
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-	"$ANDROID_SDK_ROOT/emulator"
-	"$ANDROID_SDK_ROOT/platform-tools"
+  "$ANDROID_SDK_ROOT/emulator"
+  "$ANDROID_SDK_ROOT/platform-tools"
 )
 
 # Write handy functions
 function mkcd(){
-	mkdir -p "$@" && cd "$_"
+  mkdir -p "$@" && cd "$_"
 }
 
 # Use ZSH plugins

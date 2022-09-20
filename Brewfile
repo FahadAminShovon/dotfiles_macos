@@ -40,6 +40,8 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Tools for building Android applications
 cask "android-studio"
+# Free app that makes your Internet safer
+cask "cloudflare-warp"
 # Voice and text chat software
 cask "discord"
 # Client for the Dropbox cloud storage service
@@ -70,10 +72,9 @@ cask "zoom"
 # OpenJDK distribution from Azul
 cask "zulu11"
 
-# Mas files
+# mas files
 mas "Amphetamine", id: 937984704
 mas "Bandwidth+", id: 490461369
 mas "Slack", id: 803453959
 mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835
-

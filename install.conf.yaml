@@ -34,6 +34,10 @@
       stdin: true
       stdout: true
       stderr: true
+    - command: ./setup_nvim.zsh
+      stdin: true
+      stdout: true
+      stderr: true
     - command: ./setup_node.zsh
       stdin: true
       stdout: true

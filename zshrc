@@ -9,6 +9,7 @@ export N_PREFIX="$HOME/.n"
 export ZSH_PATH="$HOME/.config/zsh"
 export EDITOR="nvim"
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export RVM_PATH=$HOME/.rvm/bin
 
 # Change ZSH Options
 
@@ -41,6 +42,7 @@ path=(
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
   "$ANDROID_SDK_ROOT/emulator"
   "$ANDROID_SDK_ROOT/platform-tools"
+	$RVM_PATH
 )
 
 # Write handy functions

@@ -76,5 +76,4 @@ cask "zulu11"
 mas "Amphetamine", id: 937984704
 mas "Bandwidth+", id: 490461369
 mas "Slack", id: 803453959
-mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835

@@ -39,6 +39,7 @@ typeset -U path
 path=(
   "$N_PREFIX/bin"
   $path
+  "$HOME/.pub-cache/bin"
   "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
   "$ANDROID_SDK_ROOT/emulator"
   "$ANDROID_SDK_ROOT/platform-tools"

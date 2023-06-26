@@ -44,8 +44,6 @@ brew "httpie"
 brew "less"
 # X.509 and CMS library
 brew "libksba"
-# Mac App Store command-line interface
-brew "mas"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # Node version management
@@ -74,8 +72,6 @@ cask "alfred"
 cask "android-platform-tools"
 # Tools for building Android applications
 cask "android-studio"
-# Free app that makes your Internet safer
-cask "cloudflare-warp"
 # Voice and text chat software
 cask "discord"
 # Client for the Dropbox cloud storage service
@@ -110,7 +106,4 @@ cask "zoom"
 
 # mas files
 cask "zulu11"
-mas "Amphetamine", id: 937984704
-mas "Bandwidth+", id: 490461369
-mas "Slack", id: 803453959
-mas "Xcode", id: 497799835
+

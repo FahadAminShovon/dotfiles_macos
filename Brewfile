@@ -30,14 +30,16 @@ brew "wangle"
 brew "fbthrift"
 # Thrift functions for querying information from a service
 brew "fb303"
-# Generic library support script
-brew "libtool"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
 # Platform built on V8 to build network applications
 brew "node"
 # Firebase command-line tools
 brew "firebase-cli"
 # Distributed revision control system
 brew "git"
+# Generic library support script
+brew "libtool"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Pager program similar to more
@@ -72,6 +74,8 @@ cask "alfred"
 cask "android-platform-tools"
 # Tools for building Android applications
 cask "android-studio"
+# Free app that makes your Internet safer
+cask "cloudflare-warp"
 # Voice and text chat software
 cask "discord"
 # Client for the Dropbox cloud storage service
@@ -84,6 +88,8 @@ cask "flutter"
 cask "font-cascadia-code"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-code-nerd-font"
+# Developer targeted fonts with a high number of glyphs
+cask "font-jetbrains-mono-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
@@ -94,6 +100,8 @@ cask "kitty"
 cask "postman"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
@@ -102,8 +110,5 @@ cask "visual-studio-code"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
-# OpenJDK distribution from Azul
-
-# mas files
 cask "zulu11"
 
